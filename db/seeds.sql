@@ -18,3 +18,4 @@ INSERT INTO burgers (name) VALUES ("Something's NOT Fishy");
 INSERT INTO burgers (name) VALUES ("Bean Spirit");
 INSERT INTO burgers (name) VALUES ("Sweet Home Avocado");
 INSERT INTO burgers (name) VALUES ("Yes I Cayenne");
+
