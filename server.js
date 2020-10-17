@@ -1,6 +1,6 @@
 const express = require("express");
 // Set the port of our application
-const PORT = 8080 || process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 const app = express();
 // Parse request body as JSON
