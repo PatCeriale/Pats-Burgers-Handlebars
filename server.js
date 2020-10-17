@@ -21,6 +21,9 @@ var routes = require("./controllers/burgersController.js");
 
 app.use(routes);
 
+app.get("/", function (req, res) {
+  res.json(path.join(__dirname, "./server"));
+});
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function () {
   // Log (server-side) when our server has started
